@@ -1,0 +1,59 @@
+:root{
+   --primary-color: hsl(47, 88%, 63%);
+   --white:#ffff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.card{
+    background-color: var(--white);
+    padding: 2rem ;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+    max-width: 400px;
+   
+}
+.illustration{
+    width: 100%;
+}
+.btn{
+    
+    border: none;
+    margin: 1.6rem 0;
+    padding:0.8rem 2rem ;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:hover{
+    color: var(--primary-color);
+}
+p{
+    width: 80%;
+}
+.avatar{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
